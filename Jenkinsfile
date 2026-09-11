@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     ENV = "${env.BRANCH_NAME}"
-    TF_WORKDIR = "Environment/${env.BRANCH_NAME}"
+    TF_WORKDIR = "Environments/${env.BRANCH_NAME}"
   }
 
   stages {
